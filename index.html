@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김지현 만들기</title>
+</head>
+<body>
+    <h1 id="text1">평범한 김지현</h1><hr />
+    <button id="btn1" onclick="귀여미함수()">귀여미</button>
+    <button id="btn1" onclick="예쁜함수()">예쁜</button>
+    <button id="btn1" onclick="잘생긴함수()">잘생김</button>
+    <button id="btn1" onclick="못생긴함수()">못생김</button> 
+    <button id="btn1" onclick="초기화함수()">초기화</button>
+    <script>
+        document.getElementById("text1").style.fontSize = "64px";
+        document.getElementById('text1').style.textAlign = "center";
+        function 귀여미함수(){
+            document.getElementById('text1').innerHTML = "귀여미 김지현";
+            document.getElementById('text1').style.textAlign = "center";
+            document.getElementById("text1").style.color = "yellow";
+        }
+        function 못생긴함수(){
+            document.getElementById('text1').innerHTML = "못생긴 김지현";
+            document.getElementById('text1').style.textAlign = "center";
+            document.getElementById("text1").style.color = "green";
+        }
+        function 예쁜함수(){
+            document.getElementById('text1').innerHTML = "예쁜 김지현";
+            document.getElementById('text1').style.textAlign = "center";
+            document.getElementById("text1").style.color = "pink";
+        }
+        function 잘생긴함수(){
+            document.getElementById('text1').innerHTML = "잘생긴 김지현";
+            document.getElementById('text1').style.textAlign = "center";
+            document.getElementById("text1").style.color = "blue";
+        }
+        function 초기화함수(){
+            document.getElementById('text1').innerHTML = "평범한 김지현";
+            document.getElementById('text1').style.textAlign = "center";
+            document.getElementById("text1").style.color = "black";
+
+        }
+        
+    </script>
+</body>
+</html>
